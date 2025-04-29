@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Responsive Design",
+      "description": "Using Bootstrap makes creating responsive layouts easy and fast."
+    },
+    {
+      "id": 2,
+      "title": "Java Basics",
+      "description": "Learning about classes and what polymorphism means"
+    },
+    {
+      "id": 3,
+      "title": "DOM Manipulation",
+      "description": "Using JavaScript, you can dynamically change page content based on data or user interaction."
+    }
+  ]
+  
