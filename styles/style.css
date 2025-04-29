@@ -1,0 +1,17 @@
+body {
+   
+  background-color: rgb(153, 153, 102);
+  margin: 20px;
+}
+
+li { 
+  font-size: .9em; 
+  border: dashed 2px white;
+  margin: 2px;
+}
+
+body  {
+  font-family: "Times New Roman", Times, serif;
+}
+
+@import "navigation.css"; /* Using a string */

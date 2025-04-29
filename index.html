@@ -1,0 +1,140 @@
+<!-- Author: Jacob Fielder -->
+<!-- dev george - a transformed version of dev able -->
+<!-- Date: 4/27/2025 -->
+<!-- Description: This is a blog dedicated to what I learn this semester at UNA. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jacob's Education Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery UI CSS -->
+  <link href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">JF</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="https://una.edu/" target="_blank">UNA</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://github.com/jacobfielder" target="_blank">GitHub</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jacobfielder/" target="_blank">LinkedIn</a></li>
+        <button id="loginBtn" class="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+          Login
+        </button>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<main class="container my-5">
+
+  <header class="text-center mb-5">
+    <h1>Jacob's Education Blog</h1>
+    <h6>This is a blog dedicated to what I learn this semester at UNA.</h6>
+  </header>
+
+  <section class="mb-5">
+    <h5>Things to talk about</h5>
+    <ul class="list-group">
+      <li class="list-group-item">Helpful Tips Learned</li>
+      <li class="list-group-item">Different Methods Learned in Java</li>
+      <li class="list-group-item">Fun Things Learned in Web Dev</li>
+    </ul>
+  </section>
+
+  <section class="mb-5">
+    <h5>Submit Your Thoughts</h5>
+    <form id="submission-form" class="row g-3">
+      <div class="col-md-6">
+        <label for="fname" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter first name">
+      </div>
+      <div class="col-md-6">
+        <label for="lname" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter last name">
+      </div>
+      <div class="col-12">
+        <label for="review" class="form-label">Your Thoughts</label>
+        <textarea id="review" name="review" rows="4" class="form-control" placeholder="Write something..."></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="mb-5 text-center">
+    <img src="https://raw.githubusercontent.com/jacobfielder/hello-world/refs/heads/main/IMG_5515.jpg" class="img-fluid mb-4" alt="Jacob's Wireframe" style="max-width: 500px;">
+    <img src="https://raw.githubusercontent.com/jacobfielder/hello-world/refs/heads/main/Seal%20Pfp%20Aesthetic.jpg" class="img-fluid" alt="Picture of cool seal" style="max-width: 500px;">
+  </section>
+
+</main>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form id="loginForm">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="username" class="form-label">Name</label>
+            <input type="text" class="form-control" id="username" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center py-4">
+  <p class="mb-1">Jacob Fielder</p>
+  <p><a href="mailto:jfielder@una.edu">jfielder@una.edu</a></p>
+</footer>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- jQuery UI -->
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+<!-- Bootstrap 5 Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="scripts/script.js"></script>
+<script src="scripts/login.js"></script>
+
+</body>
+</html>
