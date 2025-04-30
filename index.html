@@ -29,17 +29,36 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">JF</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <!-- Logo and Title -->
+    <a class="navbar-brand fw-bold" href="#">JF</a>
+    <span class="navbar-text fw-semibold d-none d-lg-inline">Jacob's Education Blog</span>
+
+    <!-- Toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="https://una.edu/" target="_blank">UNA</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://github.com/jacobfielder" target="_blank">GitHub</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jacobfielder/" target="_blank">LinkedIn</a></li>
+
+    <!-- Collapsible Links -->
+    <div class="collapse navbar-collapse" id="navbarLinks">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <!-- External Links -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/jacobfielder" target="_blank">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/jacobfielder/YOUR-REPO-NAME" target="_blank">Source Code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjacobfielder.github.io%2Fdev-charlie-project%2F" target="_blank">Nu Validator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://wave.webaim.org/report#/https://jacobfielder.github.io/dev-charlie-project/" target="_blank">WAVE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://jacobfielder.github.io/hello-world/wireframe.html" target="_blank">Wireframe</a>
+        </li>
         <button id="loginBtn" class="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#loginModal">
           Login
         </button>
@@ -47,6 +66,7 @@
     </div>
   </div>
 </nav>
+<!-- end of nav bar -->
 
 <!-- Main Content -->
 <main class="container my-5">
@@ -81,7 +101,7 @@
         <textarea id="review" name="review" rows="4" class="form-control" placeholder="Write something..."></textarea>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-submit">Submit</button>
       </div>
     </form>
 <div id="thoughts-container" class="mt-4"></div>
@@ -89,14 +109,14 @@
 <!-- Export button -->
 
 <div class="text-end mt-3">
-  <button id="export-data" class="btn btn-info text-white">Export Data</button>
+  <button id="export-data" class="btn btn-export">Export Data</button>
 </div>
 
   </section>
 
   <section class="mb-5 text-center">
     <img src="https://raw.githubusercontent.com/jacobfielder/hello-world/refs/heads/main/IMG_5515.jpg" class="img-fluid mb-4" alt="Jacob's Wireframe" style="max-width: 500px;">
-    <img src="https://raw.githubusercontent.com/jacobfielder/hello-world/refs/heads/main/Seal%20Pfp%20Aesthetic.jpg" class="img-fluid" alt="Picture of cool seal" style="max-width: 500px;">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmRjYmNlMnZsN2Nna2J3Y2x4M2poeWxwZ3N4d25mNjBhbzM5ZzIzcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tLjDQKQhyPgys/giphy.gif" class="img-fluid" alt="Picture of cool seal" style="max-width: 500px;">
   </section>
 
 </main>
@@ -113,7 +133,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        <button type="button" id="confirm-delete" class="btn btn-danger">Delete</button>
+        <button id="confirm-delete" class="btn btn-delete">Delete</button>
       </div>
     </div>
   </div>

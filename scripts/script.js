@@ -32,8 +32,14 @@ function renderThoughts() {
         <div class="card-body">
           <h5 class="card-title editable" data-field="fname">${fname} ${lname}</h5>
           <p class="card-text editable" data-field="review">${review}</p>
-          <button class="btn btn-primary btn-sm edit-btn">Edit</button>
-          <button class="btn btn-danger btn-sm delete-btn">Delete</button>
+          <div class="d-flex justify-content-end gap-2 mt-3">
+            <button class="btn btn-edit btn-sm edit-btn">
+              <i class="bi bi-pencil"></i> Edit
+            </button>
+            <button class="btn btn-delete btn-sm delete-btn">
+              <i class="bi bi-trash"></i> Delete
+            </button>
+          </div>
         </div>
       </div>
     `);
