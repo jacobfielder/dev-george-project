@@ -23,11 +23,15 @@ function renderThoughts() {
   for (let i = 0; i < thoughts.length; i++) {
     let entry = thoughts[i];
 
+    let fname = entry.fname || 'First';
+    let lname = entry.lname || 'Last';
+    let review = entry.review || 'No review provided.';
+
     container.append(`
       <div class="card my-3" data-id="${entry.id}">
         <div class="card-body">
-          <h5 class="card-title editable" data-field="fname">${entry.fname} ${entry.lname}</h5>
-          <p class="card-text editable" data-field="review">${entry.review}</p>
+          <h5 class="card-title editable" data-field="fname">${fname} ${lname}</h5>
+          <p class="card-text editable" data-field="review">${review}</p>
           <button class="btn btn-primary btn-sm edit-btn">Edit</button>
           <button class="btn btn-danger btn-sm delete-btn">Delete</button>
         </div>

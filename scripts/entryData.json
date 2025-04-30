@@ -1,18 +1,20 @@
 [
-    {
-      "id": 1,
-      "title": "Responsive Design",
-      "description": "Using Bootstrap makes creating responsive layouts easy and fast."
-    },
-    {
-      "id": 2,
-      "title": "Java Basics",
-      "description": "Learning about classes and what polymorphism means"
-    },
-    {
-      "id": 3,
-      "title": "DOM Manipulation",
-      "description": "Using JavaScript, you can dynamically change page content based on data or user interaction."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "fname": "Jacob",
+    "lname": "Fielder",
+    "review": "4-10 Today I learned about the basics of JavaScript and how to use it to manipulate the DOM."
+  },
+  {
+    "id": 2,
+    "fname": "Jacob",
+    "lname": "Fielder",
+    "review": "4-15 Today I learned about the basics of Java and how classes are implemented."
+  },
+  {
+    "id": 3,
+    "fname": "Jacob",
+    "lname": "Fielder",
+    "review": "4-21 I learned about the Bootstrap framework. It makes creating responsive layouts easy and fast!"
+  }
+]
