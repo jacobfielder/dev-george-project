@@ -7,30 +7,29 @@ _A web blog that will keep tracks of things that Jacob Learns!_
 ## ✍️ Authorship & Attribution
 
 **Author**: [Jacob Fielder](https://github.com/jacobfielder)  
-**Repository**: [GitHub Link to the Repo](https://github.com/yourusername/your-repo)  
+**Repository**: [GitHub Link to the Repo](https://github.com/jacobfielder/dev-george-project)  
 **Code Resources**:
 - Inspired by [OG DEV ABLE]
-- Utilized [Library/Framework/API](link)
+- Utilized [BS5, Normalize, jQuery, jQueryUI]
 
 ---
 
 ## 🙋‍♀️ User Story
 
-> As a **[specific type of user]**,  
-> I want to **[some action]**,  
-> So that I can **[achieve some goal/result]**.
+> As a **[student]**,  
+> I want to **[write notes in my blog]**,  
+> So that I can **[keep up with my academic progress]**.
 
 ---
 
 ## 📖 Narrative
 
-This application was born out of a need to [describe the need or problem you're solving]. During development, I explored multiple layout ideas, experimented with [specific technologies or features], and refined the interface to match the target users' experience.
+This application was born out of a need to [keep track of helpful tools/skills that I learn]. During development, I explored multiple layout ideas, experimented with [Bootsrap], and refined the interface to match the target users' experience.
 
 ### 🧠 Development Story
 
 - Started as a basic [feature]
 - Iterated over UI/UX based on [feedback / examples / testing]
-- Incorporated authentication / API integration / data management
 - Learned and applied [relevant technology or pattern]
 
 ---
