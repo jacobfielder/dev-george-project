@@ -28,46 +28,50 @@ This application was born out of a need to [keep track of helpful tools/skills t
 
 ### 🧠 Development Story
 
-- Started as a basic [feature]
-- Iterated over UI/UX based on [feedback / examples / testing]
-- Learned and applied [relevant technology or pattern]
+- Started as a basic [web blog]
+- Iterated over UI/UX based on [clean designs]
+- Learned and applied [bootsrap]
 
 ---
 
 ## 🖼️ Screenshots
 
 ### ✅ Feature Preview (Current App)
-![Current Screenshot](link_to_your_screenshot.png)
+![Current Screenshot](https://github.com/jacobfielder/dev-george-project/blob/main/pages/dev-george-preview.png?raw=true)
 
-### 🌟 Inspiration from Real Apps
-Example: Login page design inspired by [App Name]  
-![Inspiration Screenshot](link_to_inspiration_image.png)
+### 🌟 What Dev Able looked like before the revamp!
+![Past Screenshot](link_to_inspiration_image.png)
 
 ---
 
 ## 🔍 Cool Code Snippet
 
-```javascript
-// Example: Debounced input search in React
-const handleSearch = useCallback(
-  debounce((query) => fetchResults(query), 300),
-  []
-);
+```css
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 ```
 
-This code uses `debounce` from lodash to limit how often a search API is triggered when typing in a search box. It helps improve performance and reduce API calls.
+This code uses `keyframes` that allows for a animated background that is clean and also shifts in colors.
 
-🔗 [View this code in the repo](https://github.com/yourusername/your-repo/blob/main/src/components/SearchBar.js)
+🔗 [View this code in the repo](https://github.com/jacobfielder/dev-george-project/blob/main/styles/style.css)
 
 ---
 
 ## 🚀 Future App Ideas
 
-See issue ➡️ [#12 Feature Roadmap](https://github.com/yourusername/your-repo/issues/12)
+See issue ➡️ [CSS Design](https://github.com/jacobfielder/dev-george-project/issues/1#issue-3033649394)
 
 ```markdown
 ### 🧩 Future Features
-- [ ] Add dark mode toggle
+- [ ] Add calender for date selection
 - [ ] Role-based user access
 - [ ] Save progress locally using localStorage or IndexedDB
 - [ ] Use Firebase/Auth0 for more robust auth
