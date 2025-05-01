@@ -16,9 +16,9 @@ _A web blog that will keep tracks of things that Jacob Learns!_
 
 ## 🙋‍♀️ User Story
 
-> As a **[student]**,  
-> I want to **[write notes in my blog]**,  
-> So that I can **[keep up with my academic progress]**.
+> As a [student],  
+> I want to [write notes in my blog],  
+> So that I can [keep up with my academic progress].
 
 ---
 
@@ -40,7 +40,7 @@ This application was born out of a need to [keep track of helpful tools/skills t
 ![Current Screenshot](https://github.com/jacobfielder/dev-george-project/blob/main/pages/dev-george-preview.png?raw=true)
 
 ### 🌟 What Dev Able looked like before the revamp!
-![Past Screenshot](link_to_inspiration_image.png)
+![Past Screenshot](https://github.com/jacobfielder/dev-george-project/blob/main/pages/dev-able-preview.png?raw=true)
 
 ---
 
@@ -72,11 +72,9 @@ See issue ➡️ [CSS Design](https://github.com/jacobfielder/dev-george-project
 ```markdown
 ### 🧩 Future Features
 - [ ] Add calender for date selection
-- [ ] Role-based user access
-- [ ] Save progress locally using localStorage or IndexedDB
-- [ ] Use Firebase/Auth0 for more robust auth
-- [ ] Mobile responsive improvements
-- [ ] Add data visualizations with Chart.js or D3.js
+- [ ] Add a personal logo to the website
+- [ ] Implement a cool easter egg that turns into a mini game
+
 ```
 
 ---
